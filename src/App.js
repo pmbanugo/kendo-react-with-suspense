@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import GridContainer from './GridContainer';
 import '@progress/kendo-theme-default/dist/all.css';
 import './App.css';
 
@@ -10,6 +11,7 @@ function App() {
         
         <h1>Hello React Suspense!</h1>
       </header>
+      <GridContainer />
     </div>
   );
 }
